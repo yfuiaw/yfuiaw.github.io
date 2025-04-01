@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\style.css">
+    <title>SITE DE INSCRIÇÕES</title>
+</head>
+
+<body>
+    <div class="NavBar">
+        <h1>SITE DE INSCRIÇÕES</h1>
+    </div>
+    <div class="formulario">
+        <form>
+            <br>
+            <label for="inscrição">Selecione o tipo de inscrição</label>
+            <select name="inscrição" id="inscrição" required>
+                <option value="Palestrante">Palestrante</option>
+                <option value="Participante">Participante</option>
+                <option value="Voluntário">Voluntário</option>
+            </select> <br> <br>
+            <label for="nome">Digite o seu nome completo: </label>
+            <input type="text" name="nome" id="nome" required> <br> <br>
+            <label for="email"> Digite o seu email: </label>
+            <input type="email" name="email" id="email" required> <br> <br>
+            <label for="telefone">Digite o seu telefone: </label>
+            <input type="tel" name="telefone" id="telefone" required> <br> <br>
+            <label for="data_nasc">Digite sua data de nascimento: </label>
+            <input type="date" name="data" id="data" required> <br> <br>
+            <label for="genero">Selecione o seu gênero: </label> <br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" required> <br>
+            <label for="masculino">Feminino</label>
+            <input type="radio" name="genero" id="feminino" required> <br>
+            <label for="masculino">Outro</label>
+            <input type="radio" name="genero" id="outro" required> <br> <br>
+            <label for="mensagem">Deixe sua mensagem/dúvida: </label>
+            <input type="text" name="texto" id="texto" maxlength="200" required> <br>
+            <div class="submit-container">
+                <button type="submit"><strong>Inscrição</strong></button>
+                <button type="reset"><strong>Limpar</strong></button>
+            </div>
+        </form>
+        </style>
+    </div>
+    <div class="Rodape">
+        <h1>Integrantes: Henrique Gustavo Lopes Ribeiro e
+            Isabella Grorossi Muniz - 31/03/2025</h1>
+    </div>
+</body>
+
+</html>
