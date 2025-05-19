@@ -15,20 +15,20 @@
     <div class="formulario">
         <form>
             <br>
-            <label for="inscrição">Selecione o tipo de inscrição</label>
+            <label for="inscrição">Selecione o tipo de inscrição</label> <br>
             <select name="inscrição" id="inscrição" required>
                 <option value="Palestrante">Palestrante</option>
                 <option value="Participante">Participante</option>
                 <option value="Voluntário">Voluntário</option>
             </select> <br> <br>
-            <label for="nome">Digite o seu nome completo: </label>
-            <input type="text" name="nome" id="nome" required> <br> <br>
-            <label for="email"> Digite o seu email: </label>
-            <input type="email" name="email" id="email" required> <br> <br>
-            <label for="telefone">Digite o seu telefone: </label>
-            <input type="tel" name="telefone" id="telefone" required> <br> <br>
-            <label for="data_nasc">Digite sua data de nascimento: </label>
-            <input type="date" name="data" id="data" required> <br> <br>
+            <label for="nome">Digite o seu nome completo: </label> <br>
+            <input class="toma" type="text" name="nome" id="nome" required> <br> <br>
+            <label for="email"> Digite o seu email: </label> <br>
+            <input class="toma" type="email" name="email" id="email" required> <br> <br>
+            <label for="telefone">Digite o seu telefone: </label> <br>
+            <input class="toma" type="tel" name="telefone" id="telefone" required> <br> <br>
+            <label for="data_nasc">Digite sua data de nascimento: </label> <br>
+            <input class="toma" type="date" name="data" id="data" required> <br> <br>
             <label for="genero">Selecione o seu gênero: </label> <br>
             <label for="masculino">Masculino</label>
             <input type="radio" name="genero" id="masculino" required> <br>
@@ -36,11 +36,13 @@
             <input type="radio" name="genero" id="feminino" required> <br>
             <label for="masculino">Outro</label>
             <input type="radio" name="genero" id="outro" required> <br> <br>
-            <label for="mensagem">Deixe sua mensagem/dúvida: </label>
-            <input type="text" name="texto" id="texto" maxlength="200" required> <br>
-            <div class="submit-container">
-                <button type="submit"><strong>Inscrição</strong></button>
-                <button type="reset"><strong>Limpar</strong></button>
+            <label for="mensagem">Deixe sua mensagem/dúvida: </label> <br>
+            <input class="toma" type="text" name="texto" id="texto" maxlength="200" required> <br>
+            <div class="leticia">
+                <input type="hidden" name="_next" value="https://www.objetivasipatbrasil.com.br/agradecimento.html">
+                <input type="hidden" name="_captcha" value="false">
+                <button class="toma" type="reset" id="limpar"><span>LIMPAR</span></button>
+                <button class="toma" type="submit" id="enviar"><span>ENVIAR</span></button>
             </div>
         </form>
         </style>
